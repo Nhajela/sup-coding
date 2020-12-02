@@ -1,0 +1,61 @@
+$bluecol : #007AFF;
+
+$black : #3D4454;
+
+$grey1  : #C0CAD4;
+
+.header {
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 5px;
+    align-items:center;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: $grey1;
+    z-index: 2;
+    position: sticky;
+
+    .logo-container{
+    flex-grow: 4;
+     justify-self:flex-end;
+     font-size:1.5em ;
+     padding: 10px;
+     cursor: pointer;
+    }
+  
+    .options {
+      flex-grow: 1;
+      height: 100%;
+      padding: 10px;
+      padding-bottom: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+  
+      .option {
+        cursor: pointer;
+        padding: 10px 10px 10px 15px;
+        
+      }
+      .option-button {
+        padding:10px 15px;
+        
+      cursor: pointer;
+      margin-left: 5px;
+      border: #007AFF;
+      border-radius: 10px;
+      border-width: 2px;
+      border-style: solid;
+      &:hover{
+          background-color: #007AFF;
+          color:white
+      }
+    }
+    }
+    }
+  
+ 
+
+
